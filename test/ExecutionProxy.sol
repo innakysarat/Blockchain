@@ -1,7 +1,6 @@
 pragma solidity ^0.4.2;
 import "../contracts/RockPaperScissors.sol";
 
-// adapted from https://truffleframework.com/tutorials/testing-for-throws-in-solidity-tests
 contract ExecutionProxy {
     address public target;
     bytes data;
